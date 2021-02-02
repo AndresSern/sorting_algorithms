@@ -31,5 +31,5 @@ void swap_Array(int *array, size_t j, size_t k);
 int _putchar(char *s);
 int _strlen(char *s);
 char *_strcat(char *dest, char *c);
-
+void quick_sort(int *array, size_t size);
 #endif /* SORT_H */
