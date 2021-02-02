@@ -25,8 +25,7 @@ void insertion_sort_list(listint_t **list)
 				print_list(*list);
 			}
 		}
-		if (current == NULL)
-			break;
+
 		current = current->next;
 	}
 }
