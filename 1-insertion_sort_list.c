@@ -1,8 +1,9 @@
 #include "sort.h"
+
 void swap_nodes(listint_t **list, listint_t *node1, listint_t *node2);
 /**
  * insertion_sort_list - sorts a doubly linked list using the insertion
- *                       sort algorithm
+ *                       sort algoriithm
  *
  * @list: list to sort
  *
@@ -11,7 +12,7 @@ void insertion_sort_list(listint_t **list)
 {
 	listint_t *tmp = NULL, *current = *list;
 
-	if (!list || !*list)
+	if (!list || !(*list))
 		return;
 
 	while (current->next != NULL)
@@ -28,8 +29,6 @@ void insertion_sort_list(listint_t **list)
 				print_list(*list);
 			}
 		}
-		if (current == NULL)
-			break;
 		current = current->next;
 	}
 }
