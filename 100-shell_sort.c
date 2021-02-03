@@ -1,9 +1,8 @@
 #include "sort.h"
-
 /**
 * shell_sort - function that sort array
-*@array: array to sort
-*@size: number of array items
+* @array: array to sort
+* @size: number of array items
 */
 void shell_sort(int *array, size_t size)
 {
