@@ -12,7 +12,7 @@ void shell_sort(int *array, size_t size)
 	size_t k = 1, a, b;
 	int temp;
 
-	if (array == NULL || size == 0)
+	if (array == NULL || size < 2)
 		return;
 
 	/*first while knuts method*/
