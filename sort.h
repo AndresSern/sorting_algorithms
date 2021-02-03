@@ -31,14 +31,11 @@ void swap_Array(int *array, size_t j, size_t k);
 int _putchar(char *s);
 int _strlen(char *s);
 char *_strcat(char *dest, char *c);
-<<<<<<< HEAD
 void swap(int *array, int position1,  int position2, int high);
 int partition(int *array, int low, int high, int size);
 void quick_sort(int *array, size_t size);
 void _quick_sort(int *array, int low, int hight, int size);
  void shell_sort(int *array, size_t size);
 
-=======
 void quick_sort(int *array, size_t size);
->>>>>>> f56bda8804280ae2689b761c743feb279cd41e56
 #endif /* SORT_H */
