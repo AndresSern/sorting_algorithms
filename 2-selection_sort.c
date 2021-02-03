@@ -37,7 +37,6 @@ void selection_sort(int *array, size_t size)
  * @k: This is the index to swap with the index j
  *
  */
-
 void swap_Array(int *array, size_t j, size_t k)
 {
 	int temp;
