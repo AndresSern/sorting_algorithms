@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "sort.h"
 
 /**
@@ -15,7 +13,6 @@ void shell_sort(int *array, size_t size)
 	if (array == NULL || size < 2)
 		return;
 
-	/*first while knuts method*/
 	while (k < size)
 		k = k * 3 + 1;
 	k = (k - 1) / 3;
@@ -24,7 +21,6 @@ void shell_sort(int *array, size_t size)
 		b = 0;
 		for (a = 0; a + k < size; a++)
 		{
-			/*condition for swap elements at the array*/
 			if (array[a] > array[a + k])
 			{
 				temp = array[a];
